@@ -1,0 +1,25 @@
+{
+  "name": "api-automation",
+  "version": "1.0.0",
+  "description": "tugas week 4",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "npx mocha ./tests/**/*.js --timeout=5000 --require ./hooks/hooks.js --reporter mochawesome",
+    "testku":"npx mocha ./tests/**/*.js --reporter mochawesome"
+  },
+  "keywords": [
+    "automation"
+  ],
+  "author": "yaser",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "chai-json-schema": "^1.5.1",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
+    "supertest": "^6.3.3"
+  }
+}

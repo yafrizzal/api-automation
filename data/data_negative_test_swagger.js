@@ -1,0 +1,18 @@
+function dataGetUser() {
+    return {
+        id: "000007",
+        firstName: "Yaserdd",
+        lastName: "saputra",
+        age: 170,
+        occupation: "hokage",
+        nationality: "burkinafaso",
+        hobbies: [
+            "tembak-tembakan"
+        ],
+        gender: "female"
+    }
+};
+
+module.exports = {
+    dataGetUser,
+}
