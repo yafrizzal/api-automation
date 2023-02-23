@@ -15,7 +15,13 @@ function getUser(userId) {
         .set('Authorization', 1234);
 }
 
+function deleteUserAll(){
+    return serverAPI
+    .delete("/users/removeAll")
+}
+
 module.exports = {
     createUser,
-    getUser
+    getUser,
+    deleteUserAll
 }

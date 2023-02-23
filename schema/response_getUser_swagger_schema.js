@@ -15,7 +15,7 @@ const getUserSwaggerSchemaResponse = {
     "additionalProperties": false,
     "properties": {
         "id": {
-            "type": ["string", "integer"]
+            "type": "string"
         },
         "firstName": {
             "type": "string"

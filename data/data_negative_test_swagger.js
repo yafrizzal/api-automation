@@ -1,6 +1,6 @@
 function dataGetUser() {
     return {
-        id: "000007",
+        id: "xxxxxx",
         firstName: "Yaserdd",
         lastName: "saputra",
         age: 170,
